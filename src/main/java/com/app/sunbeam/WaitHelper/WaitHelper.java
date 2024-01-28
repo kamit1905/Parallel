@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import com.app.sunbeam.Driver.DriverManager;
 
 public class WaitHelper {
+	//Checking first commit
 	
 	public void setImplicitWait(long timeOut) {
 		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(timeOut));
