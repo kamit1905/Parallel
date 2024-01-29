@@ -8,7 +8,7 @@ import com.app.sunbeam.Reports.ExtentManagerLogger;
 
 public class LoginPage {
 	
-	By userName = By.xpath("//input[@type='emails']");
+	By userName = By.xpath("//input[@type='email']");
 	By nextBtn = By.xpath("//span[text()='Next']/ancestor::div[1]");
 	By password = By.xpath("//input[@name='password']");
 	By loginBtn = By.xpath("//button[text()=' Login ']");
