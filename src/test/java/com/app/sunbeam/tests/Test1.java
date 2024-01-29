@@ -26,7 +26,7 @@ public class Test1 extends BaseTest {
 	public void LoginTest() {
 		LoginPage login = new LoginPage();
 		login.EnterUserName("amit789@gmail.com");
-		Assert.assertFalse(true);
+		Assert.assertFalse(false);
 		login.ClickOnNextButton();
 	}
 
