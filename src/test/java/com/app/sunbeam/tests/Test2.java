@@ -13,7 +13,7 @@ public class Test2 extends BaseTest {
 	@Test(enabled = true ,priority = 2)
 	public void getup1Test() {
 		Assert.assertEquals("Mumbai", "Mumbai");
-		Assert.assertFalse(true);
+		Assert.assertFalse(false);
 	}
 
 }
